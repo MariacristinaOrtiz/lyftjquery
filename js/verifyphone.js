@@ -2,8 +2,10 @@ $(document).ready(function() {
   // SELECCION DE ELEMENTOS GUARDADOS EN VARIBALES
   var $inputCode = $('input[type="number"]');
   var $buttonVerify = $('button[type="submit"]');
-
+  var $textPhone = $('#frase');
   $inputCode.focus();
+  $textPhone.append(localStorage.phone);
+
   // ....EVENTOS.....
   // EVENTO KEYUP: Verificar la coincidencia del codigo generado en la vista signUp
   $inputCode.on('keyup', function() {

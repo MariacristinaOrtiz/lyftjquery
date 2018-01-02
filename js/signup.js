@@ -24,6 +24,7 @@ $(document).ready(function() {
   $buttonNext.on('click', function() {
     alert('your code is LB-' + '345' + '');
     localStorage.code = '345';
+    localStorage.phone = $inputPhone.val();
     window.location.href = 'verifyphone.html';
   });
 });

@@ -7,7 +7,7 @@
 
 ## Objetivo
 
-Crear la web-app **LYFT**.
+Desarrollar una web-app que replique el sitio de **Lyft**, en este reto deberás cumplir los pasos necesarios para que tu usuario pueda registrarse.
 
 
 ## Alumna
@@ -40,15 +40,15 @@ La web-app contiene:
 
 * La **VISTA REGISTER** que contiene:
 
-    * **Input** para ingresar el código (LAB-000) brindado en la vista sign up.
+    * **Inputs** para ingresar el nombre y apellido, correo electronico, password.
 
-    * **button next** que se activa cuando el código es ingresado, dirige a la vista register.
+    * **button Sign Up** que se activa cuando los inputs esta validados.
 
 * La **VISTA FINAL** que muestra un check de registro exitoso que dura 5 segundos y regresa a la vista de inicio.
 
 ## EStructuras de guía
 
-![vista splash](assets/docs/.jpg)
-![vista principal](assets/docs/.jpg)
-![vista principal](assets/docs/.jpg)
-![vista principal](assets/docs/.jpg)
+![vista splash](assets/docs/logo1.png)
+![vista principal](assets/docs/logo2.png)
+![vista principal](assets/docs/img3.png)
+![vista principal](assets/docs/img4.png)

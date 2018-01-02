@@ -1,9 +1,11 @@
 $(document).ready(function() {
   // SELECCION DE ELEMENTOS GUARDADOS EN VARIBALES
+  var $inputName = $('#input-name');
   var $inputEmail = $('#input-email');
   var $inputPassword = $('#input-password');
   var $inpuChecked = $('input[type="checkbox"]');
   var $buttonSignUp = $('button[type="submit"]');
+
   // INCICIALIZAMOS LAS VALIDACIONES CON FALSE
   var validateEmail = false;
   var validatePassword = false;
@@ -57,6 +59,7 @@ $(document).ready(function() {
   // FUNCIÓN PARA GUARDAR EL EMAIL Y PASSWORD INGRESADOS Y RIDERECCIONAR A LA SIGUIENTE VISTA
   function saveEmailPassword(event) {
     event.preventDefault();
+    localStorage.name = $inputName.val();
     localStorage.email = $inputEmail.val();// Guardamos el valo de email para el log in
     localStorage.password = $inputPassword.val();// Guardamos el valo de email para el log in
     window.location.href = 'finalview.html';
