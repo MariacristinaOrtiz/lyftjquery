@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sign up</title>
+  <!-- Vínculo de tipografía-->
+  <link href="https://fonts.googleapis.com/css?family=Boogaloo|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <!-- Vínculo css: bootstrap y main-->
+  <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body class="background-color height">
+  <!-- VISTA PREVIA--->
+  <menu>
+    <div class="button-previous-view">
+      <a href="signup.html" type="button" class="btn">
+       <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+     </a>
+   </div>
+  </menu>
+  <!-- ENCABEZADO-->
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="text-center tittle-signup">
+            <h1><strong>Register</strong></h1>
+            <h4>Join now for free ride credit</h4>
+          </div>
+          <hr>
+         </div>
+       </div>
+     </div>
+   </header>
+   <br>
+  <!-- ..VERIFITY PHONE SECTION--->
+   <section class="register-section">
+     <div class="container-fluid">
+       <div class="row">
+         <div class="col-xs-12">
+           <form class="text-center">
+         		<div class="form-group">
+         			<label for="input-email" class="input-lg">Email address</label>
+         			<input type="email" class="form-control input-lg" id="input-email" placeholder="Email">
+              <span class="email-span">Example@</span>
+         		</div>
+         		<div class="form-group">
+         			<label for="input-password" class="input-lg">Password</label>
+         			<input type="password" class="form-control input-lg" id="input-password" placeholder="Password">
+              <span class="password-span">Enter a password longer than 6 characters</span>
+         		</div>
+         		<div class="checkbox">
+         			<label>
+         				<input type="checkbox"> Check me out
+         			</label>
+         		</div>
+         		<br>
+            <div class="col-xs-11 text-center">
+              <button type="submit" id="signup"class="btn btn-lg" disabled>Sign Up</button>
+            </div>
+         	</form>
+         </div>
+       </div>
+     </div>
+   </section>
+  <!-- vínculo de lo archivos js necesarios -->
+  <script src="../vendors/js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../vendors/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../js/register.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

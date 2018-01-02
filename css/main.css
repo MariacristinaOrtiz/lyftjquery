@@ -1,0 +1,82 @@
+/*SETEAR NUESTROS ARCHIVOS: SEA IGUAL PARA TODOS LOS NAVEGADORES*/
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* ------ETIQUETAS REUTILIZABLES---*/
+.height {
+ height: 100vh;
+ width: 100%;
+}
+.background-image {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.btn {
+  margin: 1rem;
+  background:linear-gradient( rgb(224, 11, 177) 10%, rgb(185, 11, 177));
+  color: #fff;
+  font-weight: bolder;
+}
+.background-color {
+ background: linear-gradient( rgb(240, 240, 240)25%, rgb(180, 180, 180));
+}
+/*--FIN ESTILOS REUTILIZABLES--*/
+/* ESTILOS VISTA DE INICIO*/
+body.background-image-startview {
+  background-image: url(../assets/imgs/startview.jpg);
+  background-size: 150% 100vh;
+}
+.flex {
+  display: flex;
+	justify-content: center;
+  align-items: center;
+}
+h1.tittle-lyft {
+  color: rgb(185, 11, 177);
+  font-family: 'Boogaloo', cursive;
+  font-weight: 900;
+  font-size: 16rem;
+  border-radius: 100%;
+  border: 2px solid rgb(120, 120, 120);
+}
+div.flex-button {
+  display: flex;
+	justify-content: center;
+  align-items:flex-end;
+  height: 50vh;
+}
+/* ESTILOS VISTA DE SIGN UP*/
+hr {
+  border: 1.5px solid rgb(185, 11, 177);;
+}
+.img-li {
+  width: 9rem;
+  height: 5rem;
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+}
+ul.dropdown-menu li {
+ font-family: 'Boogaloo', cursive;
+ font-weight: 600;
+}
+/* ESTILOS VISTA DE REGISTER*/
+.email-span{
+  color: blue;
+}
+.password-span {
+  color: red;
+}
+/* ESTILOS VISTA FINAL*/
+body.flex-check {
+  display: flex;
+	justify-content: center;
+  align-items:flex-end;
+  height: 92vh;
+}
+body.background-image-final {
+  background-image: url("../assets/imgs/logo.png");
+  background-size: 100% 100vh;
+}
